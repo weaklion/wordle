@@ -12,7 +12,7 @@ const Timer = ({resetBoard}) => {
       resetBoard();
       localStorage.setItem("timer",600);
       setTimer(600);
-      return ;
+      return;
     }
 
     setTimer(timer - 1);
